@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SixDegrees.Dal\SixDegrees.Dal.csproj" />
+    <ProjectReference Include="..\SixDegrees.Dto\SixDegrees.Dto.csproj" />
+  </ItemGroup>
+
 </Project>
